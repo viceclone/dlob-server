@@ -14,7 +14,8 @@
 		"rootDir": "src",
 		"outDir": "./lib",
 		"paths": {
-			"@drift/common/clients": ["./drift-common/common-ts/lib/clients"],
+			"@drift/common/*": ["./drift-common/common-ts/src/*"],
+			"@drift-labs/sdk": ["./drift-common/protocol/sdk/src"]
 		}
 	},
 	"include": ["src/**/*"],
